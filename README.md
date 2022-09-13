@@ -5,4 +5,4 @@ Rockbuster Stealth LLC is a movie rental company that used to have stores around
 
 # Data
 The data is provided by careerfoundry and is avialable here 
-[Rockbuster 2.zip](https://github.com/ambicca123/Rockbuster_Data_Analysis_SQL/files/9556256/Rockbuster.2.zip)
+
