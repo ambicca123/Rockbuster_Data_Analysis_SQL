@@ -1,9 +1,9 @@
 #SQL Subquery
 #Top 10 customers by highest payment made in Top 10 countries
 
-SELECT A.customer_id,	
-	     A.first_name,
-	     A.last_name,
+SELECT A.customer_id,
+	A.first_name,
+	A.last_name,
        C.city,
        D.country,
        SUM(amount) AS total_amount_paid
