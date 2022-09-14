@@ -1,5 +1,5 @@
-# SQL CTE query 
-# Used to find the average amount paid by the top 5 customers in the top 10 cities in Top 10 countries having highest number of customers.
+-- SQL CTE query 
+-- Used to find the average amount paid by the top 5 customers in the top 10 cities in Top 10 countries having highest number of customers.
 
 WITH full_info_cte (customer_id, first_name, last_name, city, country, total_amt_paid) 
 AS ( SELECT customer.customer_id, customer.first_name, customer.last_name, city.city, country.country, SUM(payment.amount) AS total_amt_paid 
